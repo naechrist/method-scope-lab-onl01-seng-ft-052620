@@ -6,4 +6,5 @@ describe "#catch_phrase" do
     expect{catch_phrase}.to output("It's-a me, Mario!\n").to_stdout
   end
 end
-def catch_phrase
+def catch_phrase(phrase = "It's-a me, Mario!")
+end
